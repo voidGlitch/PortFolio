@@ -1,118 +1,65 @@
-import Portfolio from "../assets/portfolio.webp";
-import Ecommerce from "../assets/ecommerce.webp";
-import Whatsapp from "../assets/whatsapp.webp";
-import Todolist from "../assets/todolist.webp";
-import InstagramClone from "../assets/instagramClone.webp";
-import Calculator from "../assets/calculator.webp";
+import Port from "../assets/Port.png";
+import Planora from "../assets/Planora.png";
+import chatapp from "../assets/chatapp.png";
 
 export const projectData = [
   {
     id: 1,
-    image: Ecommerce,
-    summary: "Ecommerce Web-app made using MERN stack & Redux.",
-    overlay: "Ecommerce- Webapplication",
-    title: "Ecommerce Web-app",
+    image: Planora,
+    summary:
+      "This project aims to provide users with a seamless experience in organizing their trips, exploring destinations, and utilizing AI-generated suggestions for their itineraries.",
+    overlay: "Trip Planner Web Application",
+    title:
+      "Building a Fullstack AI Trip Planner with React, Gemini AI, TailwindCSS & Firebase",
     features: [
-      "An e-commerce web application to buy products online. Key features are:",
-      "1. Filter feature based on rating, price, and product categories.",
-      "2. Add to Cart feature.",
-      "3. Order Tracking feature.",
-      "4. Payment feature to buy products.",
-      " 5. Admin Dashboard feature to do CRUD operations on User, Products, and Orders by the Admin",
+      "AI-Driven Recommendations: The app uses Gemini AI to generate personalized trip itineraries based on user preferences, helping travelers discover new places and activities tailored to their interests.",
+      "Google Integration: Users can easily search for locations and receive autocomplete suggestions through the Google Places API, making it effortless to find and select destinations.",
+      "Photo Displays: Enhance trip planning with visuals by displaying stunning images of places using the Google Photo API.",
+      "Firebase Backend: The app utilizes Firebase for secure data storage and user authentication, allowing for easy login via Google and maintaining user trip histories.",
+      "Responsive Design: Built with TailwindCSS, the app ensures full responsiveness across devices, providing an optimal experience on mobile and desktop.",
+      "User-Friendly Interface: The app incorporates intuitive navigation and modern UI components, ensuring a pleasant user experience.",
     ],
-    techStack: ["React", "MongoDB", "ExpressJS", "NodeJS", "Redux"],
+    techStack: ["React", "Gemini AI", "TailwindCSS", "Firebase"],
     links: [
-      "https://ecommerce-backend-2trj.onrender.com/",
-      "https://github.com/PranjayVats/Ecommerce-Project-MERN-Stack",
+      "https://planora-ai-trip-planner.vercel.app/",
+      "https://github.com/voidGlitch/Planora-Ai-Trip-Planner",
     ],
   },
   {
     id: 2,
-    image: Portfolio,
+    image: Port,
     summary: "Portfolio Web-app made using React & Tailwind CSS.",
     overlay: "Portfolio- Webapplication",
     title: "Portfolio Web-app",
     features: ["My Portfolio web application is based on GOOGLE theme."],
     techStack: ["React", "Tailwind CSS"],
     links: [
-      "https://pranjay-vats-portfolio.netlify.app/",
-      "https://github.com/PranjayVats/MyPortfolio",
+      "https://portfolio-alpha-two-62.vercel.app/",
+      "https://github.com/voidGlitch/Portfolio",
     ],
   },
 
   {
     id: 3,
-    image: InstagramClone,
-    summary: "Instagram clone Web-app made using React & Firebase.",
-    overlay: "InstagramClone- Webapplication",
-    title: "Instagram Clone Web-app",
+    image: chatapp,
+    summary:
+      "A feature-rich, real-time chat application with support for chat rooms, message reactions, social media authentication, role-based access control, file uploads, audio messages, and instant notifications.",
+    overlay: "Chat App - Web Application",
+    title: "Chat App Web Application",
     features: [
       "Some key features are: ",
-      "1. Real-time Uploading of Post and Comments.",
-      "2. Deployed on Firebase.",
+      "1. Real-time messaging with Firebase Realtime Database.",
+      "2. Like messages and engage with your chat.",
+      "3. Social media authentication (Google and Facebook).",
+      "4. Role-based permissions for users.",
+      "5. File uploads and sharing within chat.",
+      "6. Audio messages for voice communication.",
+      "7. Instant notifications via Firebase Cloud Messaging (FCM).",
     ],
-    techStack: ["React", "Firebase"],
+    techStack: ["React", "Firebase", "SASS", "RSuite (React Suite)"],
     links: [
-      "https://instagram-clone-pv.web.app/",
-      "https://github.com/PranjayVats/instagram-clone",
-    ],
-  },
-
-  {
-    id: 4,
-    image: Whatsapp,
-    summary: "Whatsapp clone Web-app made using MERN stack and Firebase .",
-    overlay: "WhatsappClone- Webapplication",
-    title: "Whatsapp-clone Web-app",
-    features: [
-      "Some key features are:",
-      "Real-time chat feature with the help of Firebase.",
-      "Backend and Frontend hosted on Netlify.",
-    ],
-    techStack: [
-      "React",
-      "MongoDB",
-      "ExpressJS",
-      "NodeJS",
-      "Pusher",
-      "Firebase",
-    ],
-    links: [
-      "https://basic-whatsapp-clone-app.netlify.app",
-      "https://github.com/PranjayVats/whatsapp-clone",
-    ],
-  },
-  {
-    id: 5,
-    image: Todolist,
-    summary: "Todolist Web-app made using MERN stack.",
-    overlay: "Todolist- Webapplication",
-    title: "Todolist Web-app",
-    features: [
-      "It’s a basic todolist webapplication",
-      "Some key features are:",
-      "1. Filter on todos based on completion.",
-      "2. Feature to 'Add', 'Delete' and 'Edit' of todos.",
-      "3. Frontend deployed on Firebase.",
-      "4. Backend deployed on Netlify.",
-    ],
-    techStack: ["React", "MongoDB", "ExpressJS", "NodeJS"],
-    links: [
-      "https://simple-todolist-webapp.netlify.app",
-      "https://github.com/PranjayVats/Simple-Todolist-Webapp",
-    ],
-  },
-  {
-    id: 6,
-    image: Calculator,
-    summary: "Simple Calculator Web-app made using React.",
-    overlay: "Simple Calculator",
-    title: "Simple Calculator Web-app",
-    features: ["Calculator web application to perform basic calculations."],
-    techStack: ["React", "HTML", "CSS", "Javascript"],
-    links: [
-      "https://basic-calculator-reactjs.netlify.app",
-      "https://github.com/PranjayVats/my-react-calculator",
+      "https://chat-web-app-9eb34.firebaseapp.com/signin",
+      "https://github.com/voidGlitch/Chat-app",
     ],
   },
 ];

@@ -1,23 +1,22 @@
 import Port from "../assets/Port.png";
 import Planora from "../assets/Planora.png";
 import chatapp from "../assets/chatapp.png";
+import boxoffice from "../assets/boxoffice.png";
 
 export const projectData = [
   {
     id: 1,
     image: Planora,
     summary:
-      "This project aims to provide users with a seamless experience in organizing their trips, exploring destinations, and utilizing AI-generated suggestions for their itineraries.",
+      "A full-stack AI-powered trip planner offering personalized itineraries, destination exploration, and a seamless user experience.",
     overlay: "Trip Planner Web Application",
-    title:
-      "Building a Fullstack AI Trip Planner with React, Gemini AI, TailwindCSS & Firebase",
+    title: "Planora AI Trip Planner",
     features: [
-      "AI-Driven Recommendations: The app uses Gemini AI to generate personalized trip itineraries based on user preferences, helping travelers discover new places and activities tailored to their interests.",
-      "Google Integration: Users can easily search for locations and receive autocomplete suggestions through the Google Places API, making it effortless to find and select destinations.",
-      "Photo Displays: Enhance trip planning with visuals by displaying stunning images of places using the Google Photo API.",
-      "Firebase Backend: The app utilizes Firebase for secure data storage and user authentication, allowing for easy login via Google and maintaining user trip histories.",
-      "Responsive Design: Built with TailwindCSS, the app ensures full responsiveness across devices, providing an optimal experience on mobile and desktop.",
-      "User-Friendly Interface: The app incorporates intuitive navigation and modern UI components, ensuring a pleasant user experience.",
+      "AI-Driven Itineraries: Personalized trip plans powered by Gemini AI.",
+      "Google Places Integration: Autocomplete location search for easy destination selection.",
+      "Visuals: Stunning images of places via Google Photos API.",
+      "Firebase Backend: Secure data storage, Google login, and trip history.",
+      "Responsive Design: Built with TailwindCSS for an optimal experience on all devices.",
     ],
     techStack: ["React", "Gemini AI", "TailwindCSS", "Firebase"],
     links: [
@@ -60,6 +59,25 @@ export const projectData = [
     links: [
       "https://chat-web-app-9eb34.firebaseapp.com/signin",
       "https://github.com/voidGlitch/Chat-app",
+    ],
+  },
+  {
+    id: 4,
+    image: boxoffice,
+    summary:
+      "An intuitive movie recommendation platform where users can search for movies, receive recommendations, rate their favorites, and explore detailed information for each movie.",
+    overlay: "Box Office - Movie Recommendation Website",
+    title: "Box Office Movie Recommendation Website",
+    features: [
+      "Some key features are:",
+      "1. Personalized movie recommendations based on user searches.",
+      "2. Star rating system to mark and save favorite movies.",
+      "3. Detailed information display for each movie, including ratings, cast, and synopsis.",
+    ],
+    techStack: ["React", "REST API", "CSS", "Git"],
+    links: [
+      "https://voidglitch.github.io/box-office/#/",
+      "https://github.com/voidGlitch/box-office",
     ],
   },
 ];

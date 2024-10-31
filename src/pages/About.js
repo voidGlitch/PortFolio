@@ -87,7 +87,7 @@ const About = () => {
               </p>
               <a
                 className="flex rounded-3xl w-2/3 sm:w-1/4 justify-between border border-orange-500 items-center p-2 animate-bounce mt-8"
-                href="https://drive.google.com/file/d/1MH0tiug2zrRzObR-4rvNJ-bV1kkacyyG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GoybunElnXcB0Rwen0-FSI00FfPCgNx9/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
